@@ -52,7 +52,7 @@ function Dictonary()
             <Search size={20} color='grey' style={{cursor:"pointer"}}/>
         </button>
         {loading  && <p style={{textAlign:"center",marginTop:50,fontSize:20}}>Loading...</p>}
-        {error && <p>{error}</p>}
+        {error && <p style={{textAlign:"center",marginTop:20}}>{error}</p>}
         { data && (
         
               <div className='result'>
