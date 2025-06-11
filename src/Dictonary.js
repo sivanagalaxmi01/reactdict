@@ -40,7 +40,7 @@ function Dictonary()
 
     return(
         <>
-        <h1>Dictonary App</h1>
+        <h1>Dictionary App</h1>
         <p className='subhead'>Search for word meaning and pronounciation</p>
         <input
           value={word}
